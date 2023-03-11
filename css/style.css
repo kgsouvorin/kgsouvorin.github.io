@@ -42,6 +42,17 @@ section.home {
   margin-top: 0;
 }
 
+.home ul {
+  position: relative;
+}
+
+.home ul li {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  text-indent: 50px;
+}
+
 /* BUTTON */
 .btn {
   cursor: pointer;
@@ -328,6 +339,10 @@ section.home {
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
   color: #111;
+}
+
+.title2 {
+  color: white
 }
 
 @media (max-width: 1068px) {
